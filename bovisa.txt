@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Discover More Today</title>
+<style>
+:root{--bg:#ffffff;--fg:#10152b;--mut:#4d5575;--card:#f2f5ff;--ac:#1a3cff;--hl:#ff6a13;--ac2:#e5eaff;--ln:rgba(16,21,43,.14);box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0b0f22;--fg:#eef1ff;--mut:#a5adcf;--card:#141a38;--ac:#7f95ff;--hl:#ff8a3d;--ac2:#161d42;--ln:rgba(238,241,255,.16)}}
+:root[data-theme="dark"]{--bg:#0b0f22;--fg:#eef1ff;--mut:#a5adcf;--card:#141a38;--ac:#7f95ff;--hl:#ff8a3d;--ac2:#161d42;--ln:rgba(238,241,255,.16)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.7 "Segoe UI",Helvetica,Arial,sans-serif}
+.w{max-width:1060px;margin:auto;padding:0 20px}
+nav{display:flex;justify-content:space-between;align-items:center;padding:16px 0;flex-wrap:wrap;gap:8px}
+nav b{font:900 26px Impact,"Arial Black",sans-serif;letter-spacing:.06em;color:var(--ac);text-transform:uppercase}nav a{color:var(--mut);text-decoration:none;font:700 13px system-ui;letter-spacing:.08em;text-transform:uppercase;margin-left:18px}
+.hero{background:var(--ac);color:#fff;border-radius:28px;display:grid;grid-template-columns:1.1fr .9fr;gap:20px;align-items:center;padding:40px;overflow:hidden}
+.hero p{color:#dfe5ff}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:34px;align-items:center}
+@media(max-width:720px){.hero,.two{grid-template-columns:1fr}.hero{padding:26px}}
+h1{font:900 clamp(40px,7vw,68px)/.98 Impact,"Arial Black",sans-serif;margin:0 0 14px;text-transform:uppercase}
+h2{font:900 30px/1.1 Impact,"Arial Black",sans-serif;margin:0 0 10px;text-transform:uppercase;letter-spacing:.01em}h3{margin:10px 0 4px;font-size:20px;font-weight:800}
+p{margin:0 0 14px;color:var(--mut)}
+.tag{display:inline-block;font:800 12px system-ui;letter-spacing:.14em;text-transform:uppercase;background:var(--hl);color:#fff;padding:4px 12px;border-radius:6px;margin-bottom:10px}
+.btn{display:inline-block;background:var(--hl);color:#fff;padding:14px 30px;border-radius:8px;font:800 15px system-ui;letter-spacing:.06em;text-transform:uppercase;text-decoration:none}
+svg{width:100%;height:auto;display:block}
+section{padding:42px 0}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(310px,1fr));gap:18px;margin-top:20px}
+.t{display:flex;gap:16px;align-items:center;border-radius:20px;padding:14px;color:#10152b}
+.t svg{width:120px;flex:none;border-radius:14px}.t h3{margin:0 0 2px}.t p{margin:0;color:#2c3350;font-size:15px}
+.g{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:18px;margin-top:18px}
+.st{background:var(--card);border-radius:18px;padding:20px;border-left:6px solid var(--hl)}
+.st i{font:900 30px Impact,sans-serif;font-style:normal;color:var(--ac)}
+.band{background:var(--hl);color:#fff;border-radius:28px;padding:46px 26px;text-align:center}
+.band h2,.band p{color:#fff}.band .tag{background:#fff;color:var(--hl)}
+.pills{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-top:16px}
+.pills span{background:rgba(255,255,255,.22);padding:6px 16px;border-radius:99px;font:700 13px system-ui;color:#fff}
+.art{max-width:730px;margin:auto}.art h3{margin-top:26px}
+blockquote{margin:24px 0;padding:12px 24px;background:var(--ac2);border-radius:14px;font:800 21px system-ui;color:var(--ac)}
+ul.l{padding-left:20px;color:var(--mut)}ul.l li{margin-bottom:8px}
+details{background:var(--card);border-radius:14px;padding:14px 20px;margin-bottom:12px}
+summary{cursor:pointer;font-weight:800}details p{margin:10px 0 0}
+footer{padding:36px 0;text-align:center;color:var(--mut);font-size:14px}
+</style></head><body><div class="w">
+
+<nav><b>Bovisa</b><div><a href="#collection">Sports</a><a href="#steps">Steps</a><a href="#inside">Reading</a><a href="#faq">Questions</a></div></nav>
+
+<div class="hero"><div>
+<span class="tag">Discover More Today</span>
+<h1>Take The Next Step</h1>
+<p>Welcome to Bovisa, a friendly reading space about sports, games and the teamwork behind them. Explore New Choices in rules and stories, and Discover New Options for what to learn next.</p>
+<a class="btn" href="#collection">Start Exploring Today</a></div>
+<svg viewBox="0 0 340 280"><circle cx="170" cy="140" r="108" fill="#fff"/><circle cx="170" cy="140" r="108" fill="none" stroke="#10152b" stroke-width="5"/><path d="M170 92l40 29-15 47h-50l-15-47Z" fill="#10152b"/><g stroke="#10152b" stroke-width="5"><path d="M170 92V40M210 121l50-16M195 168l30 40M145 168l-30 40M130 121l-50-16"/></g><path d="M300 40l24 24M310 30l12 12" stroke="#ff6a13" stroke-width="6" stroke-linecap="round"/></svg></div>
+
+<section id="collection"><span class="tag">Browse Our Collection</span><h2>Something New Awaits</h2>
+<p>Explore Popular Choices among six sports and games topics, then pick one and read at your own pace.</p>
+<div class="tiles">
+<div class="t" style="background:#cfe9d4"><svg viewBox="0 0 120 90"><rect width="120" height="90" fill="#3f9b57"/><path d="M0 45h120" stroke="#fff" stroke-width="2"/><circle cx="60" cy="45" r="14" fill="none" stroke="#fff" stroke-width="2"/><circle cx="60" cy="45" r="9" fill="#fff"/><path d="M60 38l6 5-2 8h-8l-2-8Z" fill="#10152b"/></svg><div><h3>Football</h3><p>The rules, the pitch and the history of the world’s most loved game.</p></div></div>
+<div class="t" style="background:#ffe1c9"><svg viewBox="0 0 120 90"><rect width="120" height="90" fill="#e9b777"/><rect x="48" y="12" width="14" height="60" rx="5" fill="#8a5a2a" transform="rotate(25 55 42)"/><circle cx="82" cy="62" r="11" fill="#c2392b"/><path d="M74 58q8 6 16 0" stroke="#fff" stroke-width="2" fill="none"/></svg><div><h3>Cricket</h3><p>Bat, ball and wickets explained in simple steps.</p></div></div>
+<div class="t" style="background:#ffe9a8"><svg viewBox="0 0 120 90"><rect width="120" height="90" fill="#d8644b"/><path d="M-10 70Q60 20 130 70" stroke="#fff" stroke-width="3" fill="none"/><path d="M-10 82Q60 32 130 82" stroke="#fff" stroke-width="3" fill="none"/><circle cx="60" cy="38" r="12" fill="#ffd83d" stroke="#fff" stroke-width="3"/></svg><div><h3>Athletics</h3><p>Running, jumping and throwing, and how records are set.</p></div></div>
+<div class="t" style="background:#cfe6fa"><svg viewBox="0 0 120 90"><rect width="120" height="90" fill="#58b4e8"/><path d="M0 30h120M0 54h120M0 78h120" stroke="#fff" stroke-width="3"/><path d="M0 44q15-8 30 0t30 0 30 0 30 0" stroke="#1a6ea8" stroke-width="4" fill="none"/><circle cx="70" cy="30" r="8" fill="#ffd2a8"/></svg><div><h3>Swimming</h3><p>Strokes, breathing and why water is such good exercise.</p></div></div>
+<div class="t" style="background:#e3d9f5"><svg viewBox="0 0 120 90"><rect width="120" height="90" fill="#6d55b3"/><g fill="#fff"><rect x="30" y="60" width="22" height="8" rx="2"/><path d="M36 60l2-22h8l2 22Z"/><circle cx="41" cy="32" r="7"/></g><g fill="#ffd83d"><rect x="68" y="60" width="22" height="8" rx="2"/><path d="M74 60l-2-26 7 6 7-6-2 26Z"/></g></svg><div><h3>Board Games</h3><p>Chess, ludo and other games that train planning and patience.</p></div></div>
+<div class="t" style="background:#ffd9df"><svg viewBox="0 0 120 90"><rect width="120" height="90" fill="#e85a74"/><path d="M38 20h44v24q0 20-22 22-22-2-22-22Z" fill="#ffd83d"/><path d="M38 28h-12q0 16 14 20M82 28h12q0 16-14 20" stroke="#ffd83d" stroke-width="5" fill="none"/><rect x="52" y="66" width="16" height="8" fill="#ffd83d"/><rect x="44" y="74" width="32" height="7" rx="2" fill="#c99a1c"/></svg><div><h3>Team Spirit</h3><p>Fair play, practice and what teams learn together.</p></div></div>
+</div></section>
+
+<section><span class="tag">Simple &amp; Convenient</span><h2>See What’s Available</h2>
+<p>Discover Quality Choices in three easy reading styles, each written to be short and clear.</p>
+<div class="g">
+<div class="st"><h3>Short Reads</h3><p>Five-minute articles you can finish in a single sitting.</p></div>
+<div class="st"><h3>Picture Guides</h3><p>Simple drawings that show a field, a court or a board.</p></div>
+<div class="st"><h3>Quick Facts</h3><p>Small notes to remember about each game and its rules.</p></div>
+</div></section>
+
+<section><div class="two">
+<svg viewBox="0 0 400 280" style="border-radius:24px"><rect width="400" height="280" fill="#ff6a13"/><rect x="26" y="26" width="348" height="228" rx="10" fill="none" stroke="#fff" stroke-width="5"/><path d="M200 26v228" stroke="#fff" stroke-width="5"/><circle cx="200" cy="140" r="42" fill="none" stroke="#fff" stroke-width="5"/><rect x="26" y="96" width="46" height="88" fill="none" stroke="#fff" stroke-width="5"/><rect x="328" y="96" width="46" height="88" fill="none" stroke="#fff" stroke-width="5"/><circle cx="130" cy="120" r="9" fill="#10152b"/><circle cx="262" cy="170" r="9" fill="#fff"/></svg>
+<div><span class="tag">Find Your Next Favorite</span><h2>Discover Your Next Pick</h2>
+<p>At Bovisa, Your Choice, Your Way means you pick the subject and the pace. Find Your Best Match, or Find Your Perfect Match, among short guides, game notes and simple lessons, and Look What’s New each week.</p>
+<p>Your Search Ends Here when curiosity leads the way. Worth a Look Today: one short article, one new idea.</p></div></div></section>
+
+<section><span class="tag">Explore Our Latest Offers</span><h2>Find What You Need</h2>
+<p>Find the Right Solution to everyday sports questions with these short reading guides.</p>
+<div class="g">
+<div class="st"><h3>Where Did Chess Begin?</h3><p>The old story of a board game that spread across the world.</p></div>
+<div class="st"><h3>How Do the Olympics Work?</h3><p>The history of the games and what the rings stand for.</p></div>
+<div class="st"><h3>Why Do Players Warm Up?</h3><p>How gentle movement prepares muscles before play.</p></div>
+<div class="st"><h3>What Does a Referee Do?</h3><p>Rules, signals and keeping a game fair for everyone.</p></div>
+</div></section>
+
+<section id="steps"><span class="tag">Discover Something New</span><h2>Make Every Click Count</h2>
+<p>Learn More Online with four simple steps. Get Started Today.</p>
+<div class="g">
+<div class="st"><i>01</i><h3>Pick a Game</h3><p>Begin with a sport or game you are curious about.</p></div>
+<div class="st"><i>02</i><h3>Read Calmly</h3><p>Take your time. Slow reading helps facts settle in memory.</p></div>
+<div class="st"><i>03</i><h3>Write One Line</h3><p>Summarise the main idea in your own words.</p></div>
+<div class="st"><i>04</i><h3>Look Again</h3><p>Return after a few days and see how much you remember.</p></div>
+</div></section>
+
+<section id="inside"><div class="art"><span class="tag">Quality You Can Trust</span><h2>See What’s Inside: Why Games Matter</h2>
+<p>People have played games for thousands of years. Races, ball games and board games appear in the oldest cities, and they still bring friends, families and whole countries together today.</p>
+<blockquote>Every game teaches something about patience, rules and respect.</blockquote>
+<h3>Rules make play fair</h3>
+<p>A game only works when everyone agrees on the rules. Learning to follow them teaches fairness, and learning to question them gently is how new games are invented.</p>
+<h3>Practice builds skill</h3>
+<p>Nobody is great at the start. Small, regular practice slowly turns clumsy movements into smooth ones, which is a lesson that helps in studies and work as well.</p>
+<h3>Teams share the effort</h3>
+<p>In team games each player has a role. Winning depends on listening, passing the ball and trusting others, and losing teaches how to try again with a smile.</p>
+<h3>Minds play too</h3>
+<p>Puzzles and board games train memory and planning. Explore New Possibilities by learning one new game this month and teaching it to a friend.</p></div></section>
+
+<section id="faq"><div class="art"><span class="tag">Explore Your Options</span><h2>Questions Readers Ask</h2>
+<details><summary>What is Bovisa?</summary><p>It is a reading and learning space with simple articles about football, cricket, athletics, swimming, board games and teamwork.</p></details>
+<details><summary>Where should I begin?</summary><p>Open any topic that sounds interesting and read one short piece. There is no fixed order.</p></details>
+<details><summary>How much time do I need?</summary><p>Ten minutes a day is enough. Small, regular sessions work better than rare long ones.</p></details>
+<details><summary>Does it work on my phone?</summary><p>Yes. The page fits phones, tablets and computers and follows your light or dark screen setting.</p></details>
+</div></section>
+
+<section><div class="band"><span class="tag">A New Choice Awaits</span><h2>Make A Choice Today</h2>
+<p>Learning is a series of small decisions. Find Something Better to do with a spare ten minutes, and Explore What’s New inside Bovisa whenever you like. Explore New Choices, then Discover More Options.</p>
+<div class="pills"><span>Discover New Options</span><span>Find Your Best Match</span><span>Look What’s New</span><span>There’s More to Explore</span><span>Explore What’s Trending</span><span>See What Everyone Loves</span><span>Explore. Choose. Enjoy.</span><span>Visit Our Website Today</span></div></div></section>
+
+<section><div class="art"><span class="tag">Take a Look Today</span><h2>Simple Game Habits</h2>
+<ul class="l"><li>Read about one sport or game each week.</li><li>Learn the basic rules before you watch or play.</li><li>Keep a small notebook of facts and records.</li><li>Teach a game you know to someone new.</li><li>Share one new fact with a friend or family member.</li></ul></div></section>
+
+<section style="text-align:center"><h2>Ready to Discover More?</h2>
+<p>Bovisa is here whenever you want to read, learn and grow.</p>
+<a class="btn" href="#collection">Make Your Next Move</a></section>
+
+<footer>© Bovisa · A place to read and learn</footer>
+</div></body></html>
